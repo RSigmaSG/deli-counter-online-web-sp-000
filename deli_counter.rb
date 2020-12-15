@@ -35,7 +35,7 @@ def now_serving(line)
     puts "There is nobody waiting to be served!"
     return false
   else
-    curr = line.unshift()
+    curr = line.shift()
     return line
   end
   
