@@ -25,4 +25,6 @@ def take_a_number(name, line)
   
   puts ""
   
+  return arr
+  
 end
