@@ -19,4 +19,10 @@ def line(arr)
   
 end
 
-def take_a_number(arr, line)
+def take_a_number(name, line)
+  
+  arr.push(name)
+  
+  puts ""
+  
+end
