@@ -13,6 +13,8 @@ def line(arr)
     
     end
     
+    puts out_str
+    
     return out_str
     
   end
@@ -39,5 +41,6 @@ def now_serving(line)
     puts "Currently serving #{curr}."
     return line
   end
+  
   
 end
