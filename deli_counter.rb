@@ -21,10 +21,10 @@ end
 
 def take_a_number(name, line)
   
-  arr.push(name)
+  line.push(name)
   
   puts ""
   
-  return arr
+  return line
   
 end
