@@ -23,7 +23,7 @@ def take_a_number(line, name)
   
   line.push(name)
   
-  puts "Welsome, #{name}. you are number #{line.length} in line."
+  puts "Welsome, #{name}. You are number #{line.length} in line."
   
   return line
   
