@@ -9,7 +9,7 @@ def line(arr)
   else
     arr.each_with_index do |name, index|
     
-      out_str << " #{index}. #{name}"
+      out_str << " #{index+1}. #{name}"
     
     end
     
