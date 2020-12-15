@@ -2,6 +2,6 @@
 
 def line(arr)
   
-  arr.length == 0 ? "The line is currently empty." : arr
+  arr.length == 0 ? return "The line is currently empty." : "The line is currently"
   
 end
