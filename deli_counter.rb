@@ -36,6 +36,7 @@ def now_serving(line)
     return false
   else
     curr = line.shift()
+    puts " Currently serving #{curr}"
     return line
   end
   
