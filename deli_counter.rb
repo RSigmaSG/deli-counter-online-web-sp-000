@@ -12,5 +12,9 @@ def line(arr)
       out_str << " #{index}. #{name}"
     
     end
+    
+    return out_str
+    
   end
+  
 end
